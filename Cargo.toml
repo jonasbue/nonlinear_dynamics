@@ -1,0 +1,11 @@
+[package]
+name = "numex"
+version = "0.1.0"
+authors = ["jonasbue <jonas.bueie@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ode_solvers = "0.3.0"
+gnuplot = "0.0.37"
