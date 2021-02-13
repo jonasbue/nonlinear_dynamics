@@ -1,5 +1,5 @@
-use gnuplot::{Figure, Color, TextOffset};
-//use gnuplot::LineStyle; 
+use gnuplot::{figure, color, textoffset};
+//use gnuplot::linestyle; 
 use gnuplot::*;
 
 pub fn plot_system(x: &Vec<f64>, y: &Vec<f64>, title: &str, x_label: &str, y_label: &str, font: &str, font_size: f64, style: &str, fig: &mut Figure)
